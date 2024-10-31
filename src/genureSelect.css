@@ -1,0 +1,33 @@
+.genre-box {
+   padding: 20px;
+   border-radius: 10px;
+   width:200px;
+   height: 250px;
+   text-align: center;
+   border: 2px solid rgb(212, 104, 15) 0%;
+   color: rgb(212, 104, 15) 0%;
+   font-size: 1.2rem;
+   margin: 10px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+   background-color: #000408;
+   display: inline-block;
+ }
+ 
+ .genre-box h1 {
+   font-size: 1.2rem;
+   margin: 0;
+ }
+ 
+ .genre-box:hover {
+   background-color: rgb(212, 104, 15) 0%;
+   color: white;
+   transform: translateY(-5px);
+   box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.2);
+ }
+ 
+ .genre-box:active {
+   transform: translateY(0);
+   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+ }

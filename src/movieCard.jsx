@@ -1,6 +1,6 @@
 import React from "react";
 
-const MovieCard = ({ movie }) => {
+const MovieCard = ({ movie, }) => {
   return (
     <div className="movie">
       <div>
@@ -12,6 +12,9 @@ const MovieCard = ({ movie }) => {
       <div>
         <span>{movie.Type}</span>
         <h3>{movie.Title}</h3>
+        <span>{movie.Year}</span>
+       
+        
       </div>
     </div>
   );
