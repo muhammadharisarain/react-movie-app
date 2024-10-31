@@ -23,7 +23,7 @@ const App = () => {
     if (search) {
       searchMovies(search);
     }
-  }, [search]);
+  }, [searchMovies, search]);
 
   return genureSelect === "" ? (
     <>
