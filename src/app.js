@@ -19,11 +19,6 @@ const App = () => {
     setLoading(false);
   };
 
-  useEffect(() => {
-    if (search) {
-      searchMovies(search);
-    }
-  }, [searchMovies, search]);
 
   return genureSelect === "" ? (
     <>
